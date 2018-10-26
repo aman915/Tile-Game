@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#login {
+}
+h2 {
+  text-align: center;
+  font-size: 70px;
+  font-family: cursive;
+}
+b {
+  font-size: 30px;
+  font-family: cursive;
+}
+#row,
+#column {
+  border-radius: 20px;
+  height: 30px;
+}
+#main {
+  background-color: gray;
+  height: 100%;
+  width: 100%;
+}
+#main > input {
+  border-radius: 50px;
+}
+div[id^="mainDiv"] > div {
+  background: red;
+  height: 120px;
+  width: 120px;
+  display: inline-block;
+  border: 2px solid black;
+}
+.blinking {
+  opacity: 0.4;
+}
+.check {
+}
+#timer {
+  font-size: 40px;
+  color: blue;
+}
+#timer {
+  font-size: 30px;
+  color: orangered;
+  font-style: italic;
+}
+#parentD {
+  position: absolute;
+  z-index: -1;
+  background-color: red;
+  opacity: 0.8;
+}
+#parent {
+  margin-left: 400px;
+}
+#incorrect {
+  font-size: 30px;
+  color: orangered;
+  font-style: italic;
+}
+#correct {
+  font-size: 30px;
+  color: orangered;
+  font-style: italic;
+}
+#text {
+ 
+  font-size: 30px;
+  font-family: cursive;
+}
+#score{
+  font-family: cursive;
+   font-size: 30px;
+
+}
